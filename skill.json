@@ -18,15 +18,15 @@
     "notes": "matplotlib auto-installs on first chart generation"
   },
   "scripts": [
-    "scripts/crm",
-    "scripts/crm-ingest",
-    "scripts/crm-digest",
-    "scripts/crm-notify",
-    "scripts/crm-webhook",
-    "scripts/crm-report",
-    "scripts/crm-chart",
-    "scripts/crm-export",
-    "scripts/crm-backup"
+    "scripts/crm.py",
+    "scripts/crm-ingest.py",
+    "scripts/crm-digest.py",
+    "scripts/crm-notify.py",
+    "scripts/crm-webhook.py",
+    "scripts/crm-report.py",
+    "scripts/crm-chart.py",
+    "scripts/crm-export.py",
+    "scripts/crm-backup.py"
   ],
   "data": {
     "database": "~/.local/share/agent-crm/crm.db",

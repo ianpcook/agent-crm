@@ -27,15 +27,15 @@ The Agent CRM replaces traditional CRM software with a conversational interface.
 
 | Script | Purpose |
 |--------|---------|
-| `crm` | Core CRUD operations |
-| `crm-ingest` | Parse unstructured text → structured CRM actions |
-| `crm-digest` | Generate daily digest / pipeline summary |
-| `crm-notify` | Check for alerts (overdue tasks, stale contacts, closing deals) |
-| `crm-webhook` | HTTP server for form/lead ingestion |
-| `crm-report` | Pipeline analytics, activity reports, win/loss analysis |
-| `crm-chart` | Generate visual charts (auto-bootstraps matplotlib) |
-| `crm-export` | Export data to CSV/JSON |
-| `crm-backup` | Backup/restore database |
+| `crm.py` | Core CRUD operations |
+| `crm-ingest.py` | Parse unstructured text → structured CRM actions |
+| `crm-digest.py` | Generate daily digest / pipeline summary |
+| `crm-notify.py` | Check for alerts (overdue tasks, stale contacts, closing deals) |
+| `crm-webhook.py` | HTTP server for form/lead ingestion |
+| `crm-report.py` | Pipeline analytics, activity reports, win/loss analysis |
+| `crm-chart.py` | Generate visual charts (auto-bootstraps matplotlib) |
+| `crm-export.py` | Export data to CSV/JSON |
+| `crm-backup.py` | Backup/restore database |
 
 ---
 
