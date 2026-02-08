@@ -1,0 +1,37 @@
+{
+  "name": "agent-crm",
+  "version": "1.0.1",
+  "description": "A complete CRM with no UI—just natural language. Track contacts, deals, interactions, and tasks through conversation.",
+  "author": "Tyrell",
+  "license": "MIT",
+  "repository": "",
+  "keywords": [
+    "crm",
+    "sales",
+    "contacts",
+    "deals",
+    "pipeline",
+    "tasks"
+  ],
+  "requirements": {
+    "python": ">=3.10",
+    "notes": "matplotlib auto-installs on first chart generation"
+  },
+  "scripts": [
+    "scripts/crm",
+    "scripts/crm-ingest",
+    "scripts/crm-digest",
+    "scripts/crm-notify",
+    "scripts/crm-webhook",
+    "scripts/crm-report",
+    "scripts/crm-chart",
+    "scripts/crm-export",
+    "scripts/crm-backup"
+  ],
+  "data": {
+    "database": "~/.local/share/agent-crm/crm.db",
+    "backups": "~/.local/share/agent-crm/backups/",
+    "charts": "~/.local/share/agent-crm/charts/",
+    "exports": "~/.local/share/agent-crm/exports/"
+  }
+}
