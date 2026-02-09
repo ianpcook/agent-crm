@@ -33,13 +33,27 @@ Data lives in SQLite. Your AI agent is the interface. Every action is audited.
 
 ## Installation
 
-### As an OpenClaw Skill
+### Claude Desktop
+
+Add to your project knowledge or clone directly:
+
+```bash
+# Clone into your projects directory
+git clone https://github.com/ianpcook/agent-crm.git
+
+# Then add the folder to Claude Desktop:
+# Settings → Projects → Add Folder → select agent-crm
+```
+
+Or reference the skill in a Project's custom instructions by pointing to the `SKILL.md` file.
+
+### OpenClaw
 
 ```bash
 clawhub install agent-crm
 ```
 
-### As a Claude Code Skill
+### Claude Code
 
 ```bash
 cd ~/.claude/skills
