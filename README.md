@@ -35,17 +35,16 @@ Data lives in SQLite. Your AI agent is the interface. Every action is audited.
 
 ### Claude Desktop
 
-Add to your project knowledge or clone directly:
+**Option A — Download ZIP (easiest):**
+1. [Download this repo as ZIP](https://github.com/ianpcook/agent-crm/archive/refs/heads/main.zip)
+2. In Claude Desktop: **Settings → Capabilities → Skills → Add → Upload .zip**
+3. Select the downloaded ZIP file
 
+**Option B — Clone and add folder:**
 ```bash
-# Clone into your projects directory
 git clone https://github.com/ianpcook/agent-crm.git
-
-# Then add the folder to Claude Desktop:
-# Settings → Projects → Add Folder → select agent-crm
 ```
-
-Or reference the skill in a Project's custom instructions by pointing to the `SKILL.md` file.
+Then in Claude Desktop: **Settings → Projects → Add Folder** → select the `agent-crm` folder
 
 ### OpenClaw
 
